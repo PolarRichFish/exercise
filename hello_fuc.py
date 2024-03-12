@@ -1,6 +1,6 @@
 
 def build_message(user="kitty"):
-    message = "hello " + user
+    message = "HELLO " + user
     return message
 
 def hello(mesg="hello kitty"):
