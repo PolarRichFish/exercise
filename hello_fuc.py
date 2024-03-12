@@ -1,6 +1,9 @@
 
-def build_message(user="kitty"):
-    message = "HELLO " + user
+def build_message(user="kitty", mode='cap'):
+    if mode == 'cap':
+        message = "Hello " + user
+    else:
+        message = "HELLO " + user
     return message
 
 def over_p():
