@@ -1,3 +1,8 @@
+
+def build_message(user="kitty"):
+    message = "hello " + user
+    return message
+
 def hello(mesg="hello kitty"):
     if type(mesg) != str:
         raise ValueError("type error: not string")
@@ -9,4 +14,4 @@ def hello(mesg="hello kitty"):
     print(mesg)
 
 if __name__ == '__main__':
-    hello()
+    hello(build_message())
